@@ -1,0 +1,6 @@
+{
+  "name": "jjinii 샌드위치",
+  "description": "jjinii 샌드위치 주문 및 실시간 금액 계산 게시판 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

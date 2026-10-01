@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  color: #4a383a;
+  background-color: #fdf8f5;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fdf4f5 0%, #faf3ee 100%);
+  font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 입력칸 공통 스타일 (너비 100%, 패딩 10px, 둥근 모서리 8px, 포커스 시 연핑크 테두리 + 부드러운 핑크 그림자) */
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ebd9d4;
+  background-color: #ffffff;
+  color: #4a383a;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.custom-input:focus {
+  border-color: #d97788;
+  box-shadow: 0 0 0 3px rgba(217, 119, 136, 0.22);
+}
+
+/* 주문하기 버튼 (사랑스러운 로즈 핑크 배경 #d97788, 흰색 글씨, hover시 약간 밝게) */
+.btn-order {
+  background-color: #d97788;
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-order:hover {
+  background-color: #e58898;
+}
+
+.btn-order:active {
+  transform: scale(0.99);
+}
+
+/* 다시 작성 버튼 (따뜻한 베이지 배경) */
+.btn-reset {
+  background-color: #f5ebe6;
+  color: #724d54;
+  transition: all 0.2s ease;
+}
+
+.btn-reset:hover {
+  background-color: #ebdcd5;
+}
